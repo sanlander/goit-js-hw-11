@@ -1,0 +1,36 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.gallery a {
+  margin: 10px;
+  height: 100%;
+  width: calc(100% / 4 - 20px);
+  color: #181616;
+  text-decoration: none;
+}
+
+.photo-card {
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 2px;
+}
+
+.photo-card img {
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+.info {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.info-item {
+  font-size: 14px;
+}
+.info-item span {
+  display: block;
+  margin-top: 5px;
+}
