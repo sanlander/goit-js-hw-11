@@ -1,4 +1,4 @@
-export default function addNewCard({
+export default function createNewCard({
   webformatURL,
   largeImageURL,
   tags,
