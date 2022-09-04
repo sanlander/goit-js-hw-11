@@ -16,7 +16,7 @@ export default class PixabayApi {
         orientation: 'horizontal',
         image_type: 'photo',
         safesearch: true,
-        per_page: 4,
+        per_page: 40,
         page: `${this.pageApi}`,
       },
     };
